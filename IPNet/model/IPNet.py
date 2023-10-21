@@ -397,11 +397,8 @@ class IPNet(nn.Module):
         prediction5 = torch.cat((feature5_cat_in, feature5), 1)
         prediction5 = self.pred_ori(prediction5)   #32
 
-        prediction5_vis = prediction5
-        prediction5_vis = F.interpolate(prediction5_vis, size=(352,352), mode='bilinear', align_corners=False)
-
-
-
+        # prediction5_vis = prediction5
+        # prediction5_vis = F.interpolate(prediction5_vis, size=(352,352), mode='bilinear', align_corners=False)
 
 
 #----------------------------------4
@@ -490,8 +487,8 @@ class IPNet(nn.Module):
         prediction2 = torch.cat((feature2_cat_in, feature2), 1)
         prediction2 = self.pred_ori(prediction2)  # 32
 
-        # prediction2_vis = prediction2
-        # prediction2_vis = F.interpolate(prediction5_vis, size=(352, 352), mode='bilinear', align_corners=False)
+        prediction2_vis = prediction2
+        prediction2_vis = F.interpolate(prediction5_vis, size=(352, 352), mode='bilinear', align_corners=False)
 
 
 #----------------------------------------------------------------
@@ -527,56 +524,6 @@ if __name__ == '__main__':
 
     out = ras(input_tensor, dop)
 
-
-
-
-
-
-
-
-
-
-
-
-    # writer = SummaryWriter("./logs")
-    # img1 = Image.open('/home/jiajia-ding/Desktop/new_fulldataset/test/test-rgb/LUCID_TRI050S-Q_210700175__20220531103515289_image0.jpg')
-    # img2 = Image.open('/home/jiajia-ding/Desktop/new_fulldataset/test/test-dop/LUCID_TRI050S-Q_210700175__20220531103515289_image0.jpg')
-    # img2 = Image.merge('RGB', (img2, img2, img2))
-    #
-    # transforms_ = transforms.Compose([
-    #     transforms.Resize((352, 352)),
-    #     transforms.ToTensor()
-    # ])
-    # a1 = transforms_(img1)
-    # a2 = transforms_(img2)
-    #
-    #
-    # ras = IPNet()
-    # ras.load_state_dict(torch.load('/home/jiajia-ding/Desktop/IPNet_Viz/IPNet/IPNet_model/stokes_nopolar_v2/IPNet-29.pth'))
-
-
-    # a1 = a1.unsqueeze(0)     #输入网络是四个维度，所以要进行增加维度
-    # a2 = a2.unsqueeze(0)
-    # prediction, pred_s, pred_e, d1 = ras(a1, a2)
-    # b = transforms.Resize(352,352)
-    # d1 = b(d1)
-    # print(d1.shape)  #1 32 88 88
-    # print(d2.shape)  #1 32 44 44
-    # print(d3.shape)  #1 32 22 22
-    # print(d4.shape)  #1 32 11 11
-    # for i in range(32):
-        # writer.add_image('d1_%s' % i, d1.squeeze(0)[i], 0, dataformats='HW')
-
-
-    # for i in range(32):
-    #     writer.add_image('d2_%s' % i, d2.squeeze(0)[i], 0, dataformats='HW')
-    #
-    # for i in range(32):
-    #     writer.add_image('d3_%s' % i, d3.squeeze(0)[i], 0, dataformats='HW')
-    #
-    # for i in range(32):
-    #     writer.add_image('d4_%s' % i, d4.squeeze(0)[i], 0, dataformats='HW')
-    # writer.add_image('d1_%s' % i, d1.squeeze(0)[31], 0, dataformats='HW')
 
 
 
