@@ -6,4 +6,4 @@ The training and testing experiments are conducted using PyTorch with a single N
 ### Downloading necessary data:
 The PCOD_1200 dataset can be found in this [download link (Google Drive)](https://drive.google.com/uc?export=download&id=1cflvU9lAHaRFppMKlD0UG4xVNTkHVh6s)
 
-The pretrained weights can be found int this download link (Google Drive):
+The pretrained weights can be found int this [download link (Google Drive)](https://drive.google.com/uc?export=download&id=1EDZ-BnJJINdqDJ-5aAqIbZTyPRxc3DpC)
