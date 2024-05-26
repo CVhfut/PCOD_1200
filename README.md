@@ -8,4 +8,4 @@ The PCOD_1200 dataset can be found in this [download link (Google Drive)](https:
 
 Four images with different polarization angles can be found in this [download link (Google Drive)](https://drive.google.com/uc?export=download&id=1ykmaK9eFCJBWz7qE1TWM8-g9f0cj9WIj).
 
-The pretrained weights can be found int this [download link (Google Drive)](https://drive.google.com/uc?export=download&id=1EDZ-BnJJINdqDJ-5aAqIbZTyPRxc3DpC)
+
