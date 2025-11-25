@@ -22,6 +22,7 @@
 * sal2edge:Generate object edges using Ground Truth(GT).
 
 ## Citation
+```
 @article{WANG2024107303,
 title = {IPNet: Polarization-based Camouflaged Object Detection via dual-flow network},
 journal = {Engineering Applications of Artificial Intelligence},
@@ -32,6 +33,3 @@ issn = {0952-1976},
 doi = {https://doi.org/10.1016/j.engappai.2023.107303},
 author = {Xin Wang and Jiajia Ding and Zhao Zhang and Junfeng Xu and Jun Gao},
 }
-
-
-
