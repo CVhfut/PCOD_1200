@@ -12,7 +12,7 @@
 * The training and testing experiments are conducted using PyTorch with a single NVIDIA 3090ti GPU of 24 GB Memory.
 * Please run
 ```
-python MyTest.py
+MyTest.py
 ```
 ### Code:
 * unpolar_rgb.m/untitled2.m/AOP_DOP_new.m: Stokes parameter image computation in MATLAB, with input consisting of four images 
