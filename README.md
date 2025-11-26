@@ -1,5 +1,6 @@
 # IPNet: Polarization-based Camouflaged Object Detection via dual-flow network
 ### Authors: Xin Wang, Jiajia Ding, Zhao Zhang, Junfeng Xu and Jun Gao.
+The paper was accepted by Engineering Applications of Artificial Intelligence on 12 October, 2023. The paper link is : - [Link](https://doi.org/10.1016/j.engappai.2023.107303).
 
 ## Downloading necessary data:
 * The PCOD_1200 dataset can be found in this [download link (Google Drive)](https://drive.google.com/uc?export=download&id=1cflvU9lAHaRFppMKlD0UG4xVNTkHVh6s)
