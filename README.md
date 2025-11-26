@@ -10,6 +10,11 @@
 ## Results
 ![Results](./images/results.png)
 ## Content Description
+### Prerequisites
+* Python 3.9
+* Pytorch 1.12.0
+* Torchvision 0.13.0
+* Numpy 1.26.4
 ### Training/Testing
 * The training and testing experiments are conducted using PyTorch with a single NVIDIA 3090ti GPU of 24 GB Memory.
 * Please run
