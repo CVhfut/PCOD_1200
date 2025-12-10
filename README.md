@@ -11,7 +11,9 @@ The paper was accepted by Engineering Applications of Artificial Intelligence on
 The paper was accepted by Engineering Applications of Artificial Intelligence on 5 February, 2025. The paper link is : - [Link](https://doi.org/10.1016/j.engappai.2025.110245).
 
 ## Network Architecture
-![Network Architecture](./images/architecture.png)
+![Network Architecture]
+### The network architecture of IPNet
+(./images/architecture.png)
 ## Results
 ![Results](./images/results.png)
 ## Content Description
