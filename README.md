@@ -14,12 +14,12 @@ The paper was accepted by Engineering Applications of Artificial Intelligence on
 ### The network architecture of IPNet
 ![Network Architecture](./images/architecture.png)
 ### The network architecture of HIPFNet
-![Network Architecture](./images/architecture_HIPFNet.png)
+![Network Architecture](./images/architecture_HIPFNet.jpg)
 ## Results
 ### The results of IPNet
 ![Results](./images/results.png)
 ### The results of HIPFNet
-![Results](./images/results_HIPFNet.png)
+![Results](./images/results_HIPFNet.jpg)
 ## Content Description
 ### Prerequisites
 * Python 3.9
