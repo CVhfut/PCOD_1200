@@ -11,11 +11,15 @@ The paper was accepted by Engineering Applications of Artificial Intelligence on
 The paper was accepted by Engineering Applications of Artificial Intelligence on 5 February, 2025. The paper link is : - [Link](https://doi.org/10.1016/j.engappai.2025.110245).
 
 ## Network Architecture
-![Network Architecture]
 ### The network architecture of IPNet
-(./images/architecture.png)
+![Network Architecture](./images/architecture.png)
+### The network architecture of HIPFNet
+![Network Architecture](./images/architecture_HIPFNet.png)
 ## Results
+### The results of IPNet
 ![Results](./images/results.png)
+### The results of HIPFNet
+![Results](./images/results_HIPFNet.png)
 ## Content Description
 ### Prerequisites
 * Python 3.9
