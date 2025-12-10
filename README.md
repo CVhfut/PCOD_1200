@@ -50,4 +50,15 @@ issn = {0952-1976},
 doi = {https://doi.org/10.1016/j.engappai.2023.107303},
 author = {Xin Wang and Jiajia Ding and Zhao Zhang and Junfeng Xu and Jun Gao},
 }
+
+@article{WANG2025110245,
+title = {Polarization-based Camouflaged Object Detection with high-resolution adaptive fusion Network},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {146},
+pages = {110245},
+year = {2025},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2025.110245},
+author = {Xin Wang and Junfeng Xu and Jiajia Ding},
+}
 ```
